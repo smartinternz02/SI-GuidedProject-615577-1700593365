@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin Price Prediction</title>
+    <style>
+        /* Global styles */
+        body {
+            font-family: sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        /* Hero section */
+        .hero {
+            background: linear-gradient(to right, #007bff, #0056b3);
+            background-size: cover;
+            background-position: center;
+            height: 50vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            text-align: center;
+        }
+
+        /* Main content area */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 50px 0;
+        }
+
+        /* Feature section */
+        .feature {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+
+        .feature h2 {
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .feature p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        /* Form section */
+        .form-section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        /* Modern predict button */
+        .predict-button {
+            background-color: #007bff;
+            color: white;
+            padding: 20px 40px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        /* Hover effect for predict button */
+        .predict-button:hover {
+            background-color: #0069d9;
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <h1>Predict Bitcoin Price with Facebook Prophet</h1>
+    </header>
+
+    <div class="container">
+        <section class="feature">
+            <h2>State-of-the-Art Bitcoin Price Prediction</h2>
+            <p style="font-size: 18px; font-weight: bold; text-align: center; margin-top: 20px;">
+                Welcome to the future of Bitcoin price prediction.
+            </p>
+            <p style="text-align: center; font-size: 16px; line-height: 1.5">
+            In the ever-evolving world of cryptocurrency, staying ahead of the curve is    
+            essential for making informed investment decisions. Our cutting-edge Bitcoin price prediction tool harnesses the power of Facebook Prophet, a robust forecasting model designed specifically for time series data, to provide you with accurate and reliable predictions for Bitcoin's future prices.
+
+            Utilizing historical Bitcoin price data, Facebook Prophet meticulously analyzes patterns and trends, enabling it to generate insightful forecasts that can help you navigate the dynamic cryptocurrency landscape with confidence. Whether you're a seasoned investor or a curious beginner, our web application empowers you to make informed decisions about your Bitcoin investments.
+
+            With our user-friendly interface and seamless prediction process, you can easily obtain reliable price forecasts in just a few clicks. Simply enter the desired prediction timeframe, and our advanced algorithm will generate accurate predictions for the specified period.
+
+            Our Bitcoin price prediction tool is your gateway to staying informed and making informed decisions in the volatile cryptocurrency market. Embrace the power of data-driven forecasting and gain a competitive edge in your Bitcoin investment strategies.
+    </p>
+        </section>
+
+        <section class="form-section">
+            <form action="/predict" method="post">
+                <button type="submit" class="predict-button">Predict Price</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
